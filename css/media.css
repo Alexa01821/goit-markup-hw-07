@@ -5,6 +5,11 @@
   .mob-menu-soc-list {
     gap: 56px;
   }
+
+.mob-menu-address-tel {
+  font-weight: 700;
+  font-size: 36px;
+}
   .footer-subscribe-email {
     width: 396px;
   }
@@ -163,17 +168,14 @@
   /* --------------------FOOTER--------------------*/
   .footer-container {
     display: flex;
-    flex-direction: column;
-    gap: 72px;
-  }
-  .footer-info-soc {
-    display: flex;
     flex-wrap: wrap;
-    gap: 24px;
   }
-  .footer-info,
+
+  .footer-info {
+    margin: 0 24px 72px 0;
+  }
   .footer-soc {
-    margin-bottom: 0;
+    margin: 0 0 72px;
   }
   .footer-info,
   .footer-soc,
@@ -399,10 +401,12 @@
   }
   .footer-container {
     flex-direction: row;
-    gap: 80px;
   }
-  .footer-info-soc {
-    gap: 120px;
+  .footer-info{
+    margin: 0 120px 0 0;
+  }
+  .footer-soc {
+    margin: 0 80px 0 0;
   }
   .footer-soc-link {
     transition: background-color var(--transition);
@@ -420,6 +424,9 @@
   .modal-input {
     padding: 0 38px;
     transition: border-color var(--transition);
+  }
+  .modal-textarea {
+    padding: 8px 16px;
   }
   .modal-input-icon {
     transition: fill var(--transition);

@@ -207,7 +207,7 @@ body {
 }
 .mob-menu-address-tel {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -347,7 +347,7 @@ body {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 72px 16px;
 }
 .customer-item {
   width: calc((100% - 16px) / 2);
@@ -602,7 +602,7 @@ body {
   padding: 96px 0;
 }
 .filters-list {
-  width: 264px;
+  width: 308px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px 24px;
