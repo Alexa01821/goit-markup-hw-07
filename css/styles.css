@@ -224,7 +224,7 @@ body {
 
 /* -----------------------------HERO------------------------------------- */
 .hero {
-  max-width: 428px;
+  max-width: 767px;
   height: 432px;
   margin: 0 auto;
   background-color: var(--color-navy-blue);
@@ -262,19 +262,20 @@ body {
 
 /* -----------------------------SECTION1 OPTION------------------------------------- */
 .option-item:not(:last-child) {
-  padding: 0 0 72px;
+  margin: 0 0 72px;
 }
 .option-icon-wrap {
   display: none;
 }
 .option-subtitle {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  margin-bottom: 8px;
 }
 .option-text {
   font-weight: 500;
@@ -357,11 +358,11 @@ body {
   height: 100%;
   padding: 16px 40px;
   border-radius: 4px;
-  border: 1px solid var(--color-slate);
+  border: 1px solid var(--color-light-slate);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-slate);
+  color: var(--color-light-slate);
 }
 .customer-icon {
   width: 110px;
@@ -608,11 +609,12 @@ body {
   margin-bottom: 48px;
 }
 .filters-btn {
-  border: 1px solid var(--color-cornflower);
-  background: var(--color-cloud);
   text-align: center;
   color: var(--color-iris);
-  padding: 8px 16px;
+  background: var(--color-cloud);
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
   transition: color var(--transition),
     background-color var(--transition),
     border var(--transition), box-shadow var(--transition);
@@ -632,6 +634,10 @@ body {
 }
 .exemple-item {
   width: 100%;
+  transition: box-shadow var(--transition);
+}
+.exemple-item:is(:hover, :focus) {
+  box-shadow: var(--box-shadow-card);
 }
 .exemple-link {
   display: block;
@@ -655,13 +661,9 @@ body {
   color: var(--color-navy-blue);
   margin-bottom: 8px;
 }
-.exemple-text {  font-size: 16px;
+.exemple-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-
-/* 
-
-
-*/
