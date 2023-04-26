@@ -219,9 +219,9 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    width: 1140px;
   }
   .btn {
     transition: background-color var(--transition);
@@ -443,7 +443,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .narrow-container {
     padding: 0 108px;
   }
